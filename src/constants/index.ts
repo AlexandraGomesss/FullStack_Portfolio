@@ -5,12 +5,12 @@ import type {
   TExperience,
   TTestimonial,
   TProject,
-} from "../types";
+} from '../types';
 
 import {
   mobile,
   backend,
-  creator,
+  // creator,
   web,
   javascript,
   typescript,
@@ -24,156 +24,192 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  hibernate,
+  maven,
+  rest,
+  springboot,
+  java,
+  postgres,
+  //meta,
+  //starbucks,
+  //tesla,
+  //shopify,
+  //carrent,
+  //jobit,
+  //tripguide,
   threejs,
-} from "../assets";
+  creator,
+  thestarter,
+  novobanco,
+  globalblue,
+  santander,
+  battlearena,
+  llamas,
+  library,
+  rfp,
+} from '../assets';
 
 export const navLinks: TNavLink[] = [
   {
-    id: "about",
-    title: "About",
+    id: 'about',
+    title: 'About',
   },
   {
-    id: "work",
-    title: "Work",
+    id: 'work',
+    title: 'Work',
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: 'contact',
+    title: 'Contact',
   },
 ];
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: 'Software Developer',
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: 'Frontend Developer',
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: 'Backend Developer',
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: 'Product Designer',
     icon: creator,
   },
 ];
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
+    name: 'HTML 5',
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: 'CSS 3',
     icon: css,
   },
   {
-    name: "JavaScript",
+    name: 'JavaScript',
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: 'TypeScript',
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: 'React JS',
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: 'springboot',
+    icon: springboot,
   },
   {
-    name: "Tailwind CSS",
+    name: 'java',
+    icon: java,
+  },
+  {
+    name: 'Tailwind CSS',
     icon: tailwind,
   },
+  // {
+  //   name: 'Node JS',
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: 'MongoDB',
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: 'Three JS',
+  //   icon: threejs,
+  // },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
+    name: 'git',
     icon: git,
   },
   {
-    name: "figma",
+    name: 'figma',
     icon: figma,
   },
   {
-    name: "docker",
+    name: 'docker',
     icon: docker,
+  },
+  // {
+  //   name: 'hibernate',
+  //   icon: hibernate,
+  // },
+  {
+    name: 'maven',
+    icon: maven,
+  },
+  {
+    name: 'rest',
+    icon: rest,
+  },
+  {
+    name: 'postgres',
+    icon: postgres,
   },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: 'Product Designer & Full Stack Developer',
+    companyName: 'The Starter',
+    icon: thestarter,
+    iconBg: '#383E56',
+    date: 'Feb 2024 - Jul 2024',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Developed full stack applications using Java, Spring Boot, HTML, CSS, and JavaScript.',
+      'Built REST APIs and integrated frontend components.',
+      'Collaborated with teams using Agile methodology.',
+      'Supported product design and UI/UX work with user research and prototyping.',
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: 'Administrative - Corporate Department',
+    companyName: 'Novo Banco',
+    icon: novobanco,
+    iconBg: '#383E56',
+    date: 'Mar 2023 - Nov 2023',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Managed documentation processes and ensured compliance.',
+      'Supported internal workflows and data validation.',
+      'Management of legal documents and digital channels.',
+      'Coordination with clients and departments for account updates.',
+      'Led high-pressure situations, enhancing skills such as communication, collaboration, and resilience.',
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: 'Merchant & Logistics Manager',
+    companyName: 'Global Blue',
+    icon: globalblue,
+    iconBg: '#383E56',
+    date: 'Set 2018 - Fev 2023',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Contractual support and liaising with other company offices.',
+      'Logistics and correspondence management.',
+      'Physical and digital archiving.',
+      'Salesforce contractual management',
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: 'Operations Manager - BackOffice',
+    companyName: 'Santander Totta Group',
+    icon: santander,
+    iconBg: '#383E56',
+    date: 'Jul 2016 - Jun 2018',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Handling various types of assets and insurance associated with credits in Excel.',
+      'Validating data consistency in the system with credit documentation, making necessary adjustments.',
+      'Preparing processes for archiving after treatment.',
+      'Bank Guarantees. Managing post-guarantee processes in increases, reductions, cancellations, and activations. Loading proposals and Guarantees into the system. Accounting for Promissory Notes, Bank Guarantees, and Pledges.',
     ],
   },
 ];
@@ -181,93 +217,78 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
+    name: 'Sara Lee',
+    designation: 'CFO',
+    company: 'Acme Co',
+    image: 'https://randomuser.me/api/portraits/women/4.jpg',
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: 'Chris Brown',
+    designation: 'COO',
+    company: 'DEF Corp',
+    image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: 'Lisa Wang',
+    designation: 'CTO',
+    company: '456 Enterprises',
+    image: 'https://randomuser.me/api/portraits/women/6.jpg',
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: 'Library Management System',
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      'Full-stack RESTful application to manage book rentals and purchases with backend logic in Spring Boot and database integration.',
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: 'java', color: 'blue-text-gradient' },
+      { name: 'springboot', color: 'green-text-gradient' },
+      { name: 'mysql', color: 'pink-text-gradient' },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: library,
+    sourceCodeLink: 'https://github.com/AlexandraGomesss/library-app',
   },
   {
-    name: "Job IT",
+    name: 'Llamas vs Zombies Game',
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      'Java-based game using JavaFX with game loop mechanics, wave logic, and UI feedback. Built in pair programming with OOP principles.',
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: 'java', color: 'blue-text-gradient' },
+      { name: 'javafx', color: 'green-text-gradient' },
+      { name: 'oop', color: 'pink-text-gradient' },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: llamas,
+    sourceCodeLink: 'https://github.com/AlexandraGomesss/gamejam_llamasApocalypse',
   },
   {
-    name: "Trip Guide",
+    name: 'Game - Battle Arena (Motal Kombat style)',
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      'Java-based game using JavaFX with game loop mechanics, keyboard interface, random movement and PvP. Solo project',
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: 'java', color: 'blue-text-gradient' },
+      { name: 'javafx', color: 'green-text-gradient' },
+      { name: 'oop', color: 'pink-text-gradient' },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: battlearena,
+    sourceCodeLink: 'https://github.com/AlexandraGomesss/BattleArena',
+  },
+  {
+    name: 'RFP Proposal Tracker',
+    description:
+      'Web app for managing Requests for Proposal using Spring Boot, REST, and SOAP services with PostgreSQL integration.',
+    tags: [
+      { name: 'java', color: 'blue-text-gradient' },
+      { name: 'springboot', color: 'green-text-gradient' },
+      { name: 'soap', color: 'pink-text-gradient' },
+    ],
+    image: rfp,
+    sourceCodeLink: 'https://github.com/AlexandraGomesss/RFP_Buddy',
   },
 ];
 
