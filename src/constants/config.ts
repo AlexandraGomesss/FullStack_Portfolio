@@ -67,11 +67,11 @@ export const config: TConfig = {
     about: {
       p: 'Introduction',
       h2: 'Overview.',
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I'm a Full Stack Developer with a strong background in Java, Spring Boot, and React. 
+      With a foundation in law and a passion for clean code, I approach every project with logic, empathy, and attention to detail. 
+      I love building tech that feels human, scales without drama, and doesn't make future devs cry. 
+      I build clear, lasting solutions that put people first. 
+      Let's build something useful, beautiful, and just the right amount of nerdy`,
     },
     experience: {
       p: 'What I have done so far',
