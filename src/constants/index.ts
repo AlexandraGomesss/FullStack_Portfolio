@@ -250,6 +250,7 @@ const projects: TProject[] = [
       { name: 'java', color: 'blue-text-gradient' },
       { name: 'springboot', color: 'green-text-gradient' },
       { name: 'mysql', color: 'pink-text-gradient' },
+      { name: 'react', color: 'orange-text-gradient' },
     ],
     image: library,
     sourceCodeLink: 'https://github.com/AlexandraGomesss/library-app',
