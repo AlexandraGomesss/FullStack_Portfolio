@@ -267,7 +267,7 @@ const projects: TProject[] = [
     sourceCodeLink: 'https://github.com/AlexandraGomesss/gamejam_llamasApocalypse',
   },
   {
-    name: 'Game - Battle Arena (Motal Kombat style)',
+    name: 'Game - Battle Arena (Mortal Kombat style)',
     description:
       'Java-based game using JavaFX with game loop mechanics, keyboard interface, random movement and PvP. Solo project',
     tags: [
